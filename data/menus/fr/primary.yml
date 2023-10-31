@@ -5,6 +5,10 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+- title: Test
+  target: "/test/"
+  kind: page
+  children: []
 - title: Équipe
   target: "/equipe/"
   kind: page
