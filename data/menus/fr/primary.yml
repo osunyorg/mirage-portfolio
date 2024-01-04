@@ -4,7 +4,11 @@ items:
 - title: Actualités
   target: "/actualites/"
   kind: page
-  children: []
+  children:
+  - title: Test
+    target: ''
+    kind: blank
+    children: []
 - title: Équipe
   target: "/equipe/"
   kind: page
