@@ -181,15 +181,24 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Équipe
     ranks:
-      self: false
+      self: 3
+      children: 4
     data:
+      page: 
+        path: "/equipe/"
+        slug: "equipe"
+        file: "persons/_index.html"
       show_main_description: false
       show_descriptions: false
       show_images: false
       layout: grid
       pages:
+        - path: "/equipe/equipe-editoriale/"
+          slug: "equipe-editoriale"
+          file: "authors/_index.html"
+          external: false
 
 
 
