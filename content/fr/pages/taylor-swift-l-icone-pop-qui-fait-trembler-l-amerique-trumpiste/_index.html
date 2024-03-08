@@ -19,7 +19,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 position: 10
@@ -49,10 +49,15 @@ header_cta:
   label: Partager l'article
   target: http://noesya.coop
 contents_reading_time:
-  seconds: 4
+  seconds: 5
   text: >-
     moins d'une minute
 contents:
+  - kind: heading
+    title: >-
+      Test mise en forme
+    position: 0
+    rank: 2
   - kind: block
     template: chapter
     title: >-
@@ -98,11 +103,6 @@ contents:
 
 
 
-  - kind: heading
-    title: >-
-      Taylor Swift
-    position: 0
-    rank: 2
   - kind: block
     template: chapter
     title: >-
@@ -152,14 +152,24 @@ contents:
 
 
 
+
+  - kind: heading
+    title: >-
+      Taylor Swift
+    position: 1
+    rank: 2
   - kind: block
     template: pages
     title: >-
-      
+      Taylor Swift, l’icône pop
     ranks:
-      self: false
-      children: 3
+      self: 3
+      children: 4
     data:
+      page: 
+        path: "/taylor-swift-l-icone-pop-qui-fait-trembler-l-amerique-trumpiste/"
+        slug: "taylor-swift-l-icone-pop-qui-fait-trembler-l-amerique-trumpiste"
+        file: "pages/taylor-swift-l-icone-pop-qui-fait-trembler-l-amerique-trumpiste/_index.html"
       show_main_description: true
       show_descriptions: false
       show_images: false
