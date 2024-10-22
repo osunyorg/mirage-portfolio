@@ -50,20 +50,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 5
+  seconds: 6
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Heading 1
-    slug: "heading-1"
-    position: 1
-    rank: 2
+    slug: >-
+      heading-1
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
       Filler
+    slug: >-
+      filler
     ranks:
       self: 3
     data:
@@ -87,6 +95,8 @@ contents:
     template: image
     title: >-
       Champs
+    slug: >-
+      champs
     ranks:
       self: 3
     data:
@@ -102,7 +112,6 @@ contents:
 
         credit: >-
           <p>Nasa</p>
-
 
 
 
