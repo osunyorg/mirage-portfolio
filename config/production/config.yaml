@@ -2,6 +2,11 @@
 
 baseURL: https://mirage-portfolio.web.deuxfleurs.fr
 
+## OSUNY
+osuny:
+  website:
+    id: 26b4c156-9134-45e6-8807-4023aef7ce35
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
