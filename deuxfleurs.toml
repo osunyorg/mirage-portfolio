@@ -15,14 +15,14 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/taylor-swift-l-icone-pop/"
+from = "/taylor-swift-l-icone-pop/index.html"
 to = "/taylor-swift-l-icone-pop-qui-fait-trembler-l-amerique-trumpiste/"
 
 [[redirects]]
-from = "/equipe/senior/"
+from = "/equipe/senior/index.html"
 to = "/equipe/categories/senior/"
 
 [[redirects]]
-from = "/test-1/"
+from = "/test-1/index.html"
 to = "/taylor-swift-l-icone-pop-qui-fait-trembler-l-amerique-trumpiste/"
 
